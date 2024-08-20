@@ -1,0 +1,37 @@
+body {
+    background-image: url('./resources/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.clock {
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+}
+
+.clock p {
+    font-size: 150%;
+    text-shadow: 2px 2px 5px black;
+}
+
+.search {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search img {
+    width: 10vh;
+    height: 10vh;
+}
+
+.search input {
+    width: 50vw;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    font: inherit;
+}
