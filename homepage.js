@@ -60,7 +60,7 @@ function initKeymaps() {
 }
 
 function initFrog() {
-    const resourcePath = "./resources";
+    const resourcePath = "./assets";
     const frogImages = [
         "frog.png",
         "frog_cloud.png",
