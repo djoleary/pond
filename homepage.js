@@ -43,7 +43,7 @@ function initKeymaps() {
                                 break;
                         }
                     } else {
-                        window.location.href = `https://www.bing.com/search?q=${encodeURIComponent(search.value)}`;
+                        window.location.href = `https://duckduckgo.com/?q=${encodeURIComponent(search.value)}`;
                     }
                     break;
 
